@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@500&display=swap');
+/* font-family: 'Lora', serif; */
+*{
+    margin: 0;
+
+    padding: 0;
+}
+body{
+    background: url('4k-tech-8ud1fgpt22qs67c7.jpg') fixed ;
+    background-position: center;
+    background-size: contain;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+
+}
+.link{
+    text-decoration: none;
+    margin: 0 23px;
+    color: grey;
+}
+.search-container{
+    display: flex;
+}
+
+.search-box{
+    padding: 16px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+  
+}
+.search-btn{
+ border-radius: 10px;
+ margin: 0 6px;
+ padding: 16px;
+ color: green;
+ background-color: white;
+}
+.search-btn:hover{
+    background-color: green;
+    color: white;
+}
+.main-title{
+    text-align: center;
+    color: rgb(255, 0, 221);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px 0;
+}
+.main{
+    display: flex;
+    margin: 40px;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+   
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+    color: red;
+}
+.box{
+    height: 8vh;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5px 0;
+    background-color: rgb(255, 255, 255,0.9);
+    color: rgb(255, 0, 30);
+    padding: 5px;
+    font-size: 4.6vh;
+    box-sizing: border-box;
+    /* text-align: center; */
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Genrator{
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    margin: 7px 10px;
+    padding: 5px;
+}
+.Genrator:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+.gen:hover{
+    background-color: green;
+}
+.copy{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background: url('wp7907084.jpg') fixed no-repeat;
+        background-size: cover;
+    }
+    .search-container{
+        display: none;
+    }
+    .box{
+        height: 5vh;
+        font-size: 16px;
+        color:green;
+    }
+    .title{
+        color: rgb(7, 237, 249);
+    }
+    .main-title{
+        color: rgb(221, 236, 10);
+    }
+    .link{
+        text-decoration: none;
+        margin: 0 20px;
+        color: grey;
+        display: none;
+    }
+}
